@@ -1,0 +1,67 @@
+html/* Make the background colour of the entire page lightskyblue*/
+{
+	background-color: lightskyblue;
+}
+h1
+{
+	font-family: helvetica;
+	text-align: center;
+	font-size: 70px;
+	padding: 60px;
+	background-color: lightskyblue;
+	margin: 40px;
+}
+h2
+{
+	font-family: helvetica;
+	font-size: 60px;
+	margin: 40px;
+}
+h3
+{
+	font-family: helvetica;
+	font-size: 40px;
+	margin: 40px;
+	text-align: center;
+}
+.buttons
+{																				
+	text-align: center;
+	word-spacing: 15px;
+}
+.outline/* prepare the outline style for my buttons*/
+{
+	background-color: white;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding: 24px 48px;
+	transition: box-shadow 0.5s;
+}
+.outline:hover/* make the transition occur when hovering*/
+{
+	box-shadow: inset 0px 0px 0px 10px #0099ff;
+}
+p
+{
+	
+	font-family: helvetica;
+	word-break: normal;
+	font-size: 28px;
+	margin: 40px;
+}
+#volleyballimg
+{
+	padding: 110px;
+	float: right;
+	margin-top: 35px;
+}
+.center
+{
+	text-align: center;
+}
+.validators
+{
+	bottom: 0;
+}

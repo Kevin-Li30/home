@@ -1,0 +1,71 @@
+html/* Make the background colour of the entire page lightskyblue*/
+{
+	background-color: lightskyblue;
+}
+h1
+{
+	font-family: helvetica;
+	text-align: center;
+	font-size: 70px;
+	padding: 60px;
+	background-color: lightskyblue;
+	margin: 40px;
+}
+h2
+{
+	font-family: helvetica;
+	font-size: 60px;
+	margin: 40px;
+}
+.buttons
+{
+	text-align: center;
+	word-spacing: 15px;
+}
+.outline/* prepare the outline style for my buttons*/
+{
+	background-color: white;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding: 24px 48px;
+	transition: box-shadow 0.5s;
+}
+.outline:hover/* make the transition occur when hovering*/
+{
+	box-shadow: inset 0px 0px 0px 10px #0099ff;
+}
+p
+{
+	font-family: helvetica;
+	margin: 40px;
+	font-size: 33px;
+	padding-top: 40px
+}
+#vpimg
+{
+	float: right;
+	margin: 30px;
+}
+#dmmsimg
+{
+	float: left;
+	margin: 30px;
+}
+#cassandraimg
+{
+	float: right;
+	margin: 30px;
+}
+.cassandratxt
+{
+	font-family: helvetica;
+	margin: 40px;
+	font-size: 33px;
+	padding-top: 180px
+}
+.validators
+{
+	bottom: 0;
+}
